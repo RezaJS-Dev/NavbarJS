@@ -120,7 +120,7 @@ import './nav-bar.js';
                { "text": "تماس با ما", "href": "/guide" }
              ]'
     ></nav-bar>
-	<script src="./navbar.js"></script>
+	<script src="./nav-bar.js"></script>
 ```
 
 ## Styling Customization
