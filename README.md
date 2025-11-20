@@ -112,7 +112,7 @@ import './nav-bar.js';
                { "instagram": "javascript:void(0)" },
                { "email": "somewhere@gmail.com" },
                { "telegram": "javascript:void(0)" },
-               { "whatsapp": "989036243626" },
+               { "whatsapp": "989123456789" },
                { "phone": "02112345678" }
              ]'
              items = '[
