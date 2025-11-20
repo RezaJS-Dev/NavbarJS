@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            height: 120vh;
+            background-color: #7fffd4;
+        }
+    </style>
+</head>
+<body>
+    <nav-bar id="navbar1"
+             style="
+               --nav-bar-font: Arial, Tahoma;
+               --nav-bar-font-size: 20px;
+               --nav-bar-background-color: transparent;
+               --nav-bar-menu-background-color: #e1e1e1;
+               --nav-bar-links-color: #3030ef;
+               --nav-bar-links-hover: #ef30c6;" 
+             menu-button-label = '[{"text": "فروشگاه"}]'
+             logo = '[{ "src": "./logo.png", "href": "javascript:void(0)" }]'
+             side-menu-logo = '[{ "src": "./logo.png", "href": "javascript:void(0)" }]'
+             side-menu-list = '[
+               {
+                 "text": "مبلمان راحتي",
+                 "link": "javascript:void(0)",
+                 "icon": "./icon1.png", 
+                 "accordion": "", 
+                 "dropdown": ""
+               },
+               {
+                 "text": "مبلمان اداري",
+                 "link": "javascript:void(0)",
+                 "icon": "./icon2.png", 
+                 "accordion": "", 
+                 "dropdown": ""
+               },
+               {
+                 "text": "انواع ميز",
+                 "link": "javascript:void(0)",
+                 "icon": "./icon5.png", 
+                 "accordion": "yes", 
+                 "dropdown": [
+                   { "text": "ميز ناهارخوري", "href": "javascript:void(0)" },
+                   { "text": "ميز آشپزخانه", "href": "javascript:void(0)" },
+                   { "text": "ميز پذيرايي", "href": "javascript:void(0)" },
+                   { "text": "ميز تحرير", "href": "javascript:void(0)" }
+                 ]
+               },
+               {
+                 "text": "سرويس خواب",
+                 "link": "javascript:void(0)",
+                 "icon": "./icon3.png", 
+                 "accordion": "", 
+                 "dropdown": ""
+               },
+               {
+                 "text": "فرش و موكت",
+                 "link": "javascript:void(0)",
+                 "icon": "./icon4.png", 
+                 "accordion": "", 
+                 "dropdown": ""
+               }
+             ]'
+             social-links = '[
+               { "instagram": "javascript:void(0)" },
+               { "email": "somewhere@gmail.com" },
+               { "telegram": "javascript:void(0)" },
+               { "whatsapp": "989123456789" },
+               { "phone": "02112345678" }
+             ]'
+             items = '[
+               { "text": "درباره ما", "href": "/index.html" },
+               { "text": "تماس با ما", "href": "/index.html" }
+             ]'
+    ></nav-bar>
+    
+    <!-- Your content here -->
+    
+    <script src="../nav-bar.js"></script>
+</body>
+</html>
