@@ -242,23 +242,21 @@ The component uses CSS custom properties for easy theming:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/nav-bar-component.git
+git clone https://github.com/RezaJS-Dev/NavbarJS.git
 
 # Navigate to project directory
-cd nav-bar-component
+cd NavbarJS
 ```
 
 ### File Structure
 
 ```
-nav-bar-component/
+NavbarJS/
 ├── nav-bar.js          # Main component file
 ├── README.md           # Documentation
 ├── examples/           # Usage examples
-│   ├── basic.html
-│   └── advanced.html
-└── demo/               # Demo files
-    └── index.html
+    ├── basic.html
+    └── advanced.html
 ```
 
 ## License
